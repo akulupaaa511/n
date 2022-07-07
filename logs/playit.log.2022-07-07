@@ -1583,3 +1583,5 @@
 2022-07-07T15:03:35.985952Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
 2022-07-07T15:03:38.180969Z  INFO agent::application: got UDP establish response
 2022-07-07T15:35:19.469649Z  INFO agent: Starting UI
+2022-07-07T15:35:20.683306Z  INFO agent::application: agent config is prepared, checking for tunnels
+2022-07-07T15:35:20.905610Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
