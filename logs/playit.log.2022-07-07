@@ -1627,3 +1627,6 @@
 2022-07-07T23:30:26.462462Z  INFO agent: Starting UI
 2022-07-07T23:30:27.353658Z  INFO agent::application: agent config is prepared, checking for tunnels
 2022-07-07T23:30:27.575132Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
+2022-07-07T23:30:30.581235Z  INFO agent::tunnel_client: resend request request_id=0
+2022-07-07T23:30:31.368892Z  INFO agent::application: program registered details=AgentRegistered { account_id: 37295, session_id: 646, session_timestamp: 1657236628111, signature: [160, 29, 125, 209, 159, 92, 29, 32, 96, 14, 157, 144, 33, 115, 142, 180, 69, 248, 76, 78, 236, 145, 180, 43, 0, 187, 241, 145, 69, 105, 9, 108] }
+2022-07-07T23:30:31.368940Z  INFO agent::application: queue claim port lease claim=ClaimLease { ip: 147.185.221.211, from_port: 18730, to_port: 18731, proto: Udp }
