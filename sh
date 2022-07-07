@@ -14,6 +14,5 @@ expect "Password for 'https://akulupaaa511@github.com':"
 send "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\r"
 expect eof
 EOD
-sleep 1
 cd n
 ./mm
