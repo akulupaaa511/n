@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-yes | gcloud config set project aku-project-753
+yes | gcloud config set project concise-ivy-338302
+sudo apt update
 sudo apt install git-lfs
 git lfs install
 /usr/bin/expect <<EOD
