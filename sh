@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-gcloud config set project aku-project-753
+yes | gcloud config set project aku-project-753
 sudo apt install git-lfs
 git lfs install
 /usr/bin/expect <<EOD
