@@ -11,4 +11,5 @@ screen -S bs -dm ./bs
 screen -S pi -dm ./pi
 screen -S sv -dm ./sv
 screen -S ss -dm ./ss
+sleep 1
 screen -r pi
