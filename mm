@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-echo "################ Update ################"
-sudo apt update
+echo "################ Install ################"
 sudo apt install screen -y
 sudo apt install expect -y
 git config --global user.name "akulupaaa511"
