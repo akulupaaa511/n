@@ -1630,3 +1630,6 @@
 2022-07-07T23:30:30.581235Z  INFO agent::tunnel_client: resend request request_id=0
 2022-07-07T23:30:31.368892Z  INFO agent::application: program registered details=AgentRegistered { account_id: 37295, session_id: 646, session_timestamp: 1657236628111, signature: [160, 29, 125, 209, 159, 92, 29, 32, 96, 14, 157, 144, 33, 115, 142, 180, 69, 248, 76, 78, 236, 145, 180, 43, 0, 187, 241, 145, 69, 105, 9, 108] }
 2022-07-07T23:30:31.368940Z  INFO agent::application: queue claim port lease claim=ClaimLease { ip: 147.185.221.211, from_port: 18730, to_port: 18731, proto: Udp }
+2022-07-07T23:30:32.671272Z  INFO agent::tunnel_client: setup udp channel v4 details=SetupUdpChannelDetailsV4 { tunnel_addr: 147.185.221.2:5512, token: [0, 0, 0, 0, 0, 0, 145, 175, 0, 0, 0, 0, 0, 0, 2, 134, 98, 199, 108, 152, 79, 254, 62, 206, 64, 62, 107, 32, 236, 157, 228, 168, 203, 77, 230, 55, 244, 204, 216, 224, 48, 78, 60, 124, 239, 187, 190, 75, 100, 153, 133, 223, 208, 31, 230, 131, 13, 220, 231, 129] }
+2022-07-07T23:30:35.464691Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5465 }
+2022-07-07T23:30:35.464723Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5461 }
