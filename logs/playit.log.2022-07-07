@@ -1585,3 +1585,9 @@
 2022-07-07T15:35:19.469649Z  INFO agent: Starting UI
 2022-07-07T15:35:20.683306Z  INFO agent::application: agent config is prepared, checking for tunnels
 2022-07-07T15:35:20.905610Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
+2022-07-07T15:35:23.912620Z  INFO agent::tunnel_client: resend request request_id=0
+2022-07-07T15:35:24.222654Z  INFO agent::application: program registered details=AgentRegistered { account_id: 37295, session_id: 646, session_timestamp: 1657208121380, signature: [174, 7, 175, 161, 1, 211, 246, 197, 57, 191, 221, 65, 73, 124, 204, 94, 255, 250, 94, 172, 227, 243, 91, 83, 148, 92, 107, 59, 18, 172, 246, 152] }
+2022-07-07T15:35:24.222692Z  INFO agent::application: queue claim port lease claim=ClaimLease { ip: 147.185.221.211, from_port: 18730, to_port: 18731, proto: Udp }
+2022-07-07T15:35:24.537988Z  INFO agent::tunnel_client: setup udp channel v4 details=SetupUdpChannelDetailsV4 { tunnel_addr: 147.185.221.2:5512, token: [0, 0, 0, 0, 0, 0, 145, 175, 0, 0, 0, 0, 0, 0, 2, 134, 98, 198, 253, 60, 157, 184, 56, 183, 30, 194, 117, 118, 136, 21, 203, 254, 230, 0, 54, 140, 15, 111, 164, 161, 28, 185, 216, 27, 247, 207, 102, 64, 230, 103, 176, 29, 208, 31, 230, 131, 13, 220, 231, 129] }
+2022-07-07T15:35:28.473261Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5461 }
+2022-07-07T15:35:28.473292Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5462 }
