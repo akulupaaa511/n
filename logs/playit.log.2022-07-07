@@ -1485,3 +1485,6 @@
 2022-07-07T10:55:38.466867Z  INFO agent: Starting UI
 2022-07-07T10:55:39.476551Z  INFO agent::application: agent config is prepared, checking for tunnels
 2022-07-07T10:55:39.701076Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
+2022-07-07T15:01:38.485108Z  INFO agent: Starting UI
+2022-07-07T15:01:38.830916Z  INFO agent::application: agent config is prepared, checking for tunnels
+2022-07-07T15:01:39.055295Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
