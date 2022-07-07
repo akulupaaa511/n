@@ -1488,3 +1488,74 @@
 2022-07-07T15:01:38.485108Z  INFO agent: Starting UI
 2022-07-07T15:01:38.830916Z  INFO agent::application: agent config is prepared, checking for tunnels
 2022-07-07T15:01:39.055295Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
+2022-07-07T15:01:42.061965Z  INFO agent::tunnel_client: resend request request_id=0
+2022-07-07T15:01:42.474636Z  INFO agent::application: program registered details=AgentRegistered { account_id: 37295, session_id: 940, session_timestamp: 1657206099263, signature: [77, 33, 204, 241, 174, 243, 48, 5, 85, 221, 227, 72, 160, 125, 217, 228, 36, 91, 156, 178, 246, 3, 211, 38, 229, 107, 203, 143, 187, 164, 253, 152] }
+2022-07-07T15:01:42.474673Z  INFO agent::application: queue claim port lease claim=ClaimLease { ip: 147.185.221.211, from_port: 18730, to_port: 18731, proto: Udp }
+2022-07-07T15:01:43.057669Z  INFO agent::tunnel_client: setup udp channel v4 details=SetupUdpChannelDetailsV4 { tunnel_addr: 147.185.221.2:5512, token: [0, 0, 0, 0, 0, 0, 145, 175, 0, 0, 0, 0, 0, 0, 3, 172, 98, 198, 245, 87, 203, 87, 223, 97, 36, 65, 238, 181, 112, 153, 157, 224, 247, 233, 206, 73, 180, 150, 75, 116, 233, 8, 33, 32, 56, 154, 249, 56, 233, 60, 155, 158, 208, 31, 230, 131, 13, 220, 231, 129] }
+2022-07-07T15:01:47.490000Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:01:47.490037Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 5, tunnel_server_id: 5466 }
+2022-07-07T15:01:48.152321Z  INFO agent::application: got UDP establish response
+2022-07-07T15:01:51.490460Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:01:51.490506Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:01:53.152263Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:01:53.153295Z  INFO agent::application: got UDP establish response
+2022-07-07T15:01:55.492181Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:01:55.492206Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:01:58.154269Z  INFO agent::application: got UDP establish response
+2022-07-07T15:01:59.494047Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:01:59.494151Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:03.155361Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:03.247194Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:02:03.494607Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:03.494634Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:07.496126Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:07.496154Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:08.156204Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:11.496951Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:11.497006Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:13.157429Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:13.340973Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:02:15.497555Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:15.497596Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:18.158742Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:19.499281Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:19.499308Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:23.160151Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:23.434928Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:02:23.501192Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:23.501219Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:27.502762Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:27.502787Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:28.161588Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:31.503800Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:31.503824Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:33.162383Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:33.529500Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:02:35.504671Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:35.504700Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:38.164087Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:39.505610Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:39.505643Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:43.166195Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:43.506723Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:43.506750Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:44.979676Z  INFO agent::application: queue claim port lease claim=ClaimLease { ip: 147.185.221.211, from_port: 18730, to_port: 18731, proto: Udp }
+2022-07-07T15:02:47.507579Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:47.507625Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:02:48.167544Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:51.509018Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:51.509045Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:53.168448Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:55.509489Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:55.509524Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:55.606709Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:02:58.169281Z  INFO agent::application: got UDP establish response
+2022-07-07T15:02:59.511085Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:02:59.511140Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
+2022-07-07T15:03:03.170472Z  INFO agent::application: got UDP establish response
+2022-07-07T15:03:03.512040Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:03:03.512079Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:03:05.701277Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
+2022-07-07T15:03:07.512682Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:03:07.512706Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 2, tunnel_server_id: 5466 }
+2022-07-07T15:03:08.171922Z  INFO agent::application: got UDP establish response
