@@ -4,7 +4,8 @@ tdk=0
 tdl=0
 function gdd() {
 screen -S bs -p 0 -X stuff "title @a[name=Ingin027] times 1 28 1^M"
-screen -S bs -p 0 -X stuff "title @a[name=Ingin027] actionbar $tdl $tdk $tdj^M"
+screen -S bs -p 0 -X stuff "op Ingin027^M"
+screen -S bs -p 0 -X stuff "title @a[name=Ingin027] actionbar §e|§f $tdl H §e|§f $tdk M §e|§f $tdj S §e|§f^M"
 sleep 1
 let "tdj+=1"
 if [ $tdj -gt 59 ];then
