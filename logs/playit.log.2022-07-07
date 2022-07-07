@@ -1582,3 +1582,4 @@
 2022-07-07T15:03:35.522464Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5466 }
 2022-07-07T15:03:35.985952Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=6035
 2022-07-07T15:03:38.180969Z  INFO agent::application: got UDP establish response
+2022-07-07T15:35:19.469649Z  INFO agent: Starting UI
