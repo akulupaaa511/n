@@ -5,6 +5,7 @@ sudo apt install screen -y
 sudo apt install expect -y
 git config --global user.name "akulupaaa511"
 git config --global user.email "akulupamaap5@gmail.com"
+pkill screen
 clear
 echo "################ Tindakan ################"
 screen -S bs -dm ./bs
