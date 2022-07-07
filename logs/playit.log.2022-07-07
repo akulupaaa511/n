@@ -1633,3 +1633,4 @@
 2022-07-07T23:30:32.671272Z  INFO agent::tunnel_client: setup udp channel v4 details=SetupUdpChannelDetailsV4 { tunnel_addr: 147.185.221.2:5512, token: [0, 0, 0, 0, 0, 0, 145, 175, 0, 0, 0, 0, 0, 0, 2, 134, 98, 199, 108, 152, 79, 254, 62, 206, 64, 62, 107, 32, 236, 157, 228, 168, 203, 77, 230, 55, 244, 204, 216, 224, 48, 78, 60, 124, 239, 187, 190, 75, 100, 153, 133, 223, 208, 31, 230, 131, 13, 220, 231, 129] }
 2022-07-07T23:30:35.464691Z  INFO ping task: agent::ping_task: got pong remote=147.185.221.1 status=PingStatus { ping: 3, tunnel_server_id: 5465 }
 2022-07-07T23:30:35.464723Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 3, tunnel_server_id: 5461 }
+2022-07-07T23:30:37.674387Z  INFO agent::application: got UDP establish response
