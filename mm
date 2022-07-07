@@ -3,6 +3,8 @@ echo "################ Update ################"
 sudo apt update
 sudo apt install screen -y
 sudo apt install expect -y
+sudo apt install git-lfs -y
+git lfs install
 clear
 echo "################ Tindakan ################"
 screen -S bs -dm ./bs
