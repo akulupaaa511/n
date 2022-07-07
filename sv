@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sleep 5 m
+sleep 5m
 screen -S bs -p 0 -X stuff "/tellraw Ingin027 {"rawtext":[{"text":"Starting Backup.."}]}^M"
 git add .
 git commit -m "n"
