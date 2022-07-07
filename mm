@@ -3,8 +3,6 @@ echo "################ Update ################"
 sudo apt update
 sudo apt install screen -y
 sudo apt install expect -y
-sudo apt install git-lfs -y
-git lfs install
 git config --global user.name "akulupaaa511"
 git config --global user.email "akulupamaap5@gmail.com"
 clear
