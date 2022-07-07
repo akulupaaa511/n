@@ -5,6 +5,8 @@ sudo apt install screen -y
 sudo apt install expect -y
 sudo apt install git-lfs -y
 git lfs install
+git config --global user.name "akulupaaa511"
+git config --global user.email "akulupamaap5@gmail.com"
 clear
 echo "################ Tindakan ################"
 screen -S bs -dm ./bs
