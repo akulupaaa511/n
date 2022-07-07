@@ -1626,3 +1626,4 @@
 2022-07-07T15:36:09.552291Z  INFO agent::application: got UDP establish response
 2022-07-07T23:30:26.462462Z  INFO agent: Starting UI
 2022-07-07T23:30:27.353658Z  INFO agent::application: agent config is prepared, checking for tunnels
+2022-07-07T23:30:27.575132Z  INFO agent::tunnel_client: tunnel client starting control_addr=147.185.221.1:5523
