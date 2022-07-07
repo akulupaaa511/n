@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sleep 5m
+sleep 5
 git add .
 git commit -m "n"
 spawn git push
