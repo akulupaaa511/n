@@ -3,7 +3,7 @@ echo "##S##"
 tdj=0
 tdk=0
 tdl=0
-screen -S bs -p 0 -X stuff "whitelist add Ingin027"
+screen -S bs -p 0 -X stuff "whitelist add Ingin027^M"
 function gdd() {
 echo "##R##"
 screen -S bs -p 0 -X stuff "title @a[name=Ingin027] times 1 28 1^M"
