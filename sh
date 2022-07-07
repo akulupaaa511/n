@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 yes | gcloud config set project concise-ivy-338302
 sudo apt update
-sudo apt install git-lfs
+sudo apt install expect -y
+sudo apt install git-lfs -y
 git lfs install
 /usr/bin/expect <<EOD
 spawn git clone https://github.com/akulupaaa511/n.git
