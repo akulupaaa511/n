@@ -2,6 +2,7 @@
 sleep 5
 git add .
 git commit -m "n"
+/usr/bin/expect <<EOD
 spawn git push
 expect "Username for 'https://github.com':"
 send "akulupaaa511\r"
