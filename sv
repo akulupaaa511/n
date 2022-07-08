@@ -2,7 +2,7 @@
 function ag() {
 sleep 5m
 screen -S bs -p 0 -X stuff "tellraw Ingin027 {"text":"[!] Starting Backup..","bold":true,"underlined":true,"color":"red"}^M"
-git add --all -- ':!bs' ':!sesuatu'
+git add --all -- ':!bs' ':!bedrock_server_symbols.debug'
 git commit -m "n"
 /usr/bin/expect <<EOD
 spawn git push
