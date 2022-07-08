@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+function ag() {
 sleep 5m
 screen -S bs -p 0 -X stuff "tellraw Ingin027 {"text":"[!] Starting Backup..","bold":true,"underlined":true,"color":"red"}^M"
-git add .
+git add --all -- ':!bs' ':!sesuatu'
 git commit -m "n"
 /usr/bin/expect <<EOD
 spawn git push
@@ -20,4 +21,6 @@ send "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\r"
 expect eof
 EOD
 screen -S bs -p 0 -X stuff "tellraw Ingin027 {"text":"[!] Backup Finished","bold":true,"underlined":true,"color":"red"}^M"
-./sv
+ag
+}
+ag
