@@ -1,2 +1,0 @@
-bs filter=lfs diff=lfs merge=lfs -text
-bedrock_server_symbols.debug filter=lfs diff=lfs merge=lfs -text
