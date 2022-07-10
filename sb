@@ -2,7 +2,7 @@
 cd n
 sleep 5m
 screen -S bs -p 0 -X stuff "tellraw Ingin027 {"text":"[!] Starting Backup","bold":true,"underlined":true,"color":"red"}"
-git add --all -- ':!bs' ':bedrock_server_symbols.debug'
+git add --all -- ':!bs' ':!bedrock_server_symbols.debug'
 git commit -m "Update"
 /usr/bin/expect <<EOD
 spawn git push
