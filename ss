@@ -112,7 +112,8 @@ echo "### Menjalankan ###"
 if [ -d n ];then
 aku
 fi
-echo "n not found"
+clear
+echo "n directory not found"
 echo "### Restart ###"
 sleep 3
 ./ss
