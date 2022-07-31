@@ -1,22 +1,37 @@
 #!/usr/bin/env bash
-tdj=0
-tdk=0
-tdl=0
-screen -S bs -p 0 -X stuff "whitelist add Ingin027"
-function gdd() {
-screen -S bs -p 0 -X stuff "op Ingin027"
-screen -S bs -p 0 -X stuff "title @a[name=Ingin027] times 1 28 1^M"
-screen -S bs -p 0 -X stuff "title @a[name=Ingin027] actionbar §e|§f $tdl H §e|§f $tdk M §e|§f $tdj S §e|§f^M"
-sleep 1
-let "tdj+=1"
-if [ $tdj -gt 59 ];then
-tdj=0
-let "tdk+=1"
-fi
-if [ $tdk -gt 59 ];then
-tdk=0
-let "tdl+=1"
-fi
-gdd
-}
-gdd
+echo "===================================="
+echo "Download windows files"
+echo "===================================="
+curl -L -o w10x64.img https://bit.ly/akuhnetW10x64
+echo "===================================="
+echo "Download ngrok"
+echo "===================================="
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip &>/dev/null &
+unzip ngrok-stable-linux-amd64.zip1 &>/dev/null & 
+./ngrok authtoken 27jS48ICUnuQYAu7jRsFhDIh4Pj_45JdCSKBoV9tWfQTyYoHY 
+nohup ./ngrok tcp 3388 &>/dev/null &
+./ngrok tcp 3388 &>/dev/null &
+echo "===================================="
+echo Downloading File From akuh.net
+echo "===================================="
+apt-get install qemu > /dev/null 2>&1
+echo "===================================="
+echo "Wait"
+echo "Starting Windows"
+echo "===================================="
+echo "===================================="
+echo RDP Address:
+curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
+echo "===================================="
+echo "===================================="
+echo "Ctrl+C To Copy"
+echo "Wait 1-2 minute to finish bot"
+echo "Dont Close This Tab"
+echo "===================================="
+echo "===================================="
+echo "Username: akuh"
+echo "Password: Akuh.Net"
+echo "===================================="
+qemu-system-x86_64 -hda w10x64.img -m 8G -smp cores=4 -net user,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic  > /dev/null 2>&1
+sleep 60d
