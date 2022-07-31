@@ -9,6 +9,10 @@ echo "===================================="
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip &>/dev/null &
 unzip ngrok-stable-linux-amd64.zip1 &>/dev/null & 
+unzip ngrok-stable-linux-amd64.zip2 &>/dev/null &
+unzip ngrok-stable-linux-amd64.zip3 &>/dev/null &
+unzip ngrok-stable-linux-amd64.zip4 &>/dev/null &
+unzip ngrok-stable-linux-amd64.zip5 &>/dev/null &
 ./ngrok authtoken 27jS48ICUnuQYAu7jRsFhDIh4Pj_45JdCSKBoV9tWfQTyYoHY 
 nohup ./ngrok tcp 3388 &>/dev/null &
 ./ngrok tcp 3388 &>/dev/null &
